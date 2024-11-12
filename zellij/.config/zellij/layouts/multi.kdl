@@ -39,8 +39,8 @@ layout {
         }
     }
     // full Tab to run btop
-    tab name="btm" {
-        pane command="/home/mcbridl/.cargo/bin/btm"
+    tab name="btop" {
+        pane command="usr/bin/btop"
         }
     // A copied Rust dev Tab for running code and checking out relevant spaces during code run.
     tab name="Dev" split_direction="Vertical" {
